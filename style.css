@@ -1,0 +1,501 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+.tophead {
+    background-color: white;
+    height: 40px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.nav>ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+.meal {
+    font-family: 'Qwigley', cursive;
+    color: #FFB30E;
+    font-size: xx-large;
+
+}
+
+.deliver {
+    font-family: 'Open Sans', sans-serif;
+    margin-left: 150px;
+    font-size: small;
+    font-weight: bold;
+}
+
+.location {
+    font-size: small;
+    margin-left: 10px;
+}
+
+.add {
+    font-size: small;
+    font-weight: bolder;
+}
+
+.search {
+    font-size: small;
+    font-weight: bold;
+    margin-left: 250px;
+}
+
+.login>button {
+    color: gold;
+    border-color: #FFB30E;
+    border-radius: 5px;
+    margin-left: 20px;
+    padding: 2px 7px;
+    background-color: white;
+}
+
+.login>button:hover {
+    transform: scale(1.08);
+}
+
+.sechead {
+    background-color: #FFB30E;
+    display: flex;
+    justify-content: space-between;
+    height: 350px;
+}
+
+.leaf1 {
+    height: auto;
+    max-width: 100%;
+    width: 300px;
+    padding-top: 60px;
+    padding-right: 30px;
+
+}
+
+.p {
+    font-family: 'Qwigley', cursive;
+    color: white;
+    font-size: 50px;
+    font-weight: lighter;
+    padding-left: 30px;
+    padding-top: 50px;
+}
+
+.p1 {
+    font-family: 'Open Sans', sans-serif;
+    color: #504F4F;
+    padding-left: 30px;
+    padding-bottom: 20px;
+}
+
+.box1 {
+    background-color: white;
+    width: 500px;
+    margin-left: 30px;
+    padding: 10px 20px;
+}
+
+.bike {
+    border: none;
+    border-radius: 5px;
+    padding: 5px 20px;
+    font-size: small;
+    font-weight: bold;
+    color: #F17228;
+    background-color: rgba(255, 166, 0, 0.311);
+
+}
+
+.bike:hover {
+    transform: scale(1.08);
+}
+
+.lock {
+    border: none;
+    border-radius: 5px;
+    padding: 5px 20px;
+    font-size: small;
+    font-weight: bold;
+    color: black;
+    background-color: white;
+}
+
+.lock:hover {
+    transform: scale(1.08);
+}
+
+.box2 {
+    background-color: white;
+    width: 500px;
+    margin-left: 30px;
+    padding: 10px 20px;
+}
+
+.address {
+    background-color: #F5F5F5;
+    font-size: small;
+    padding: 5px 150px 5px 5px;
+    border: none;
+    border-radius: 4px;
+}
+
+.address:hover {
+    transform: scale(1.05);
+}
+
+.find {
+    background-color: #F17228;
+    font-size: small;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    color: white;
+}
+
+.find:hover {
+    transform: scale(1.08);
+}
+
+.col>img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    width: 200px;
+}
+
+.col>img:hover {
+    transform: scale(1.08);
+}
+
+.row {
+    padding-top: 50px;
+}
+
+.col>h5 {
+    color: #424242;
+    font-size: large;
+    text-align: left;
+    margin-left: 30px;
+    padding-top: 10px;
+}
+
+.col>button {
+    border: none;
+    border-radius: 4px;
+    background-color: #f172287e;
+    color: #F17228;
+    padding: 5px 8px;
+    font-weight: bold;
+    margin-right: 60px;
+}
+
+.col>button:hover {
+    transform: scale(1.08);
+}
+
+.work {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 30px;
+    flex-wrap: wrap;
+    margin-bottom: 70px;
+}
+
+h3 {
+    text-align: center;
+    font-size: xx-large;
+    color: #F17228;
+    font-weight: bold;
+    padding-top: 50px;
+}
+
+.sec1>img {
+    height: auto;
+    max-width: 100%;
+    width: 80px;
+}
+
+.sec1 {
+    font-weight: bold;
+    font-size: large;
+    color: rgb(255, 153, 0);
+}
+
+.sec2>img {
+    height: auto;
+    max-width: 100%;
+    width: 80px;
+}
+
+.sec2 {
+    font-weight: bold;
+    font-size: large;
+    color: rgb(255, 153, 0);
+}
+
+.sec3>img {
+    height: auto;
+    max-width: 100%;
+    width: 80px;
+}
+
+.sec3 {
+    font-weight: bold;
+    font-size: large;
+    color: rgb(255, 153, 0);
+    width: 20%;
+}
+
+.foods>p {
+    font-size: xx-large;
+    font-weight: bolder;
+    color: #212121;
+    padding-top: 40px;
+    padding-left: 30px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.food {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    position: relative;
+    padding-left: 30px;
+}
+
+.img {
+    max-width: 100%;
+    height: auto;
+    width: 150px;
+    border-radius: 50%;
+}
+
+.img:hover {
+    transform: scale(1.05);
+}
+
+.col>h6 {
+    text-align: center;
+    padding-left: 10px;
+    font-size: small;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    padding-top: 20px;
+    margin-right: 25px;
+}
+
+.foods {
+    background-color: #F6F5EE;
+    padding-bottom: 30px;
+}
+
+.contain {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 70px;
+    padding-bottom: 30px;
+    flex-wrap: wrap;
+}
+
+.leaf2 {
+    max-width: 100%;
+    height: auto;
+    width: 400px;
+    border-radius: 10px;
+}
+
+.leaf2:hover {
+    transform: scale(1.05);
+}
+
+.crisp {
+    color: #FFB30E;
+    font-family: 'Open Sans', sans-serif;
+    font-size: xx-large;
+    font-weight: bold;
+}
+
+.crisp>b {
+    color: #212121;
+    font-family: 'Open Sans', sans-serif;
+    font-size: large;
+}
+
+.con1>h4 {
+    color: #FFB30E;
+    font-family: 'Open Sans', sans-serif;
+    font-size: xx-large;
+    font-weight: bold;
+}
+
+.con1>p {
+    color: #616161B0;
+    font-size: medium;
+}
+
+.con1>button {
+    border: none;
+    border-radius: 5px;
+    background-color: #ffb30ed6;
+    color: white;
+    padding: 5px 50px;
+    text-align: center;
+}
+
+.con1>button:hover {
+    transform: scale(1.05);
+}
+
+.col>h4 {
+    margin-right: 90px;
+    font-size: large;
+    padding-right: 30px;
+    padding-top: 20px;
+}
+
+.order>button {
+    background-color: #F17228;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 50px;
+    margin-right: 10px;
+}
+
+.order>button:hover {
+    transform: scale(1.06);
+}
+
+.col>h3 {
+    margin-right: 90px;
+    font-size: large;
+    padding-right: 30px;
+    padding-top: 20px;
+    color: #212121;
+}
+
+.now>button {
+    background-color: #F17228;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 50px;
+    margin-right: 10px;
+}
+
+.now>button:hover {
+    transform: scale(1.06);
+}
+
+.footcontain {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-top: 50px;
+    background-color: #090D12;
+    margin-top: 50px;
+}
+
+.foot1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-left: 50px;
+}
+
+.company>h3 {
+    color: white;
+    font-size: larger;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.company>p {
+    color: white;
+    font-size: medium;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.contact>h3 {
+    color: white;
+    font-size: larger;
+    padding-left: 50px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.contact>p {
+    color: white;
+    font-size: medium;
+    padding-left: 90px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.legal>h3 {
+    color: white;
+    font-size: larger;
+    padding-left: 20px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.legal>p {
+    color: white;
+    font-size: medium;
+    padding-left: 120px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.foot2 {
+    padding-right: 40px;
+}
+
+.foot2>h4 {
+    color: white;
+    font-size: small;
+    padding-top: 50px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.foot2>p {
+    color: white;
+    font-size: small;
+    font-family: 'Open Sans', sans-serif;
+    padding-top: 10px;
+
+}
+
+.mail {
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    border: none;
+    border-radius: 4px;
+    padding: 5px 80px 5px 5px;
+    background-color: #424242c5;
+    font-size: medium;
+}
+
+.mail:hover {
+    transform: scale(1.05);
+}
+
+.sub {
+    color: white;
+    background-color: #FFB30E;
+    border-radius: 4px;
+    border: none;
+    font-size: small;
+    padding: 4px 10px;
+}
+
+.sub:hover {
+    transform: scale(1.05);
+}
